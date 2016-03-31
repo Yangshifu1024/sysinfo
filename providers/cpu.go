@@ -11,7 +11,8 @@ func CpuStats() string {
 		panic(err)
 	}
 	cpuTable := uitable.New()
-	cpuTable.AddRow("#", "CPU MODEL", "CORES")
+	cpuTable.AddRow("CPU")
+	cpuTable.AddRow("#", "Model Name", "Cores")
 	for i, stat := range cpuStats {
 		cpuTable.AddRow(i, stat.ModelName, stat.Cores)
 	}

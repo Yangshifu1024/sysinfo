@@ -26,6 +26,8 @@ func main() {
 	app.Action = func(c *cli.Context) {
 		cpuStats := providers.CpuStats()
 		fmt.Println(cpuStats)
+		memStats := providers.MemStats()
+		fmt.Println(memStats)
 	}
 
 	app.Run(os.Args)
