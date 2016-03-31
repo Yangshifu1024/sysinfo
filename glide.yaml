@@ -1,4 +1,4 @@
-package: SystemInfo
+package: iSystem
 import:
 - package: github.com/codegangsta/cli
 - package: github.com/gosuri/uitable
