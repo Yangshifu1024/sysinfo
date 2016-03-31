@@ -7,3 +7,4 @@ import:
   - cpu
   - host
   - mem
+- package: github.com/fatih/color

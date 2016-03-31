@@ -1,8 +1,10 @@
-hash: 5af45d8d1d5317ace2ea8d5622cb4ab9bfcad46c5570a631d401d19152663d6a
-updated: 2016-03-31T17:22:25.673999174+08:00
+hash: a42abc41a3776bc70e2af2085af955d4f4966030a005f778d6e6a325cbfc2bf2
+updated: 2016-03-31T17:26:35.032465031+08:00
 imports:
 - name: github.com/codegangsta/cli
   version: bc465becccd1d527002fda095fc3c19d9c115029
+- name: github.com/fatih/color
+  version: 533cd7fd8a85905f67a1753afb4deddc85ea174f
 - name: github.com/go-ole/go-ole
   version: 572eabb84c424e76a0d39d31510dd7dfd62f70b2
   subpackages:
