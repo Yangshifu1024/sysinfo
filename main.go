@@ -28,6 +28,8 @@ func main() {
 		fmt.Println(cpuStats)
 		memStats := providers.MemStats()
 		fmt.Println(memStats)
+		userStats := providers.UserStats()
+		fmt.Println(userStats)
 	}
 
 	app.Run(os.Args)
