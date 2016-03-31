@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"xInfo/providers"
+	"iSystem/providers"
 	"github.com/codegangsta/cli"
 )
 
