@@ -1,0 +1,30 @@
+hash: 8f91e481450bba51ea08e47293f44ca9ca7c235745832dd21806c6ad43e2f384
+updated: 2016-03-31T17:04:46.191397033+08:00
+imports:
+- name: github.com/codegangsta/cli
+  version: bc465becccd1d527002fda095fc3c19d9c115029
+- name: github.com/go-ole/go-ole
+  version: 572eabb84c424e76a0d39d31510dd7dfd62f70b2
+  subpackages:
+  - oleutil
+- name: github.com/gosuri/uitable
+  version: 847a6cc1fb502a46685196d7826217bcae6bd4d0
+  subpackages:
+  - util/strutil
+  - util/wordwrap
+- name: github.com/mattn/go-runewidth
+  version: d6bea18f789704b5f83375793155289da36a3c7f
+- name: github.com/shirou/gopsutil
+  version: 37d89088411de59a4ef9fc340afa0e89dfcb4ea9
+  subpackages:
+  - cpu
+  - host
+  - mem
+  - internal/common
+  - process
+  - net
+- name: github.com/shirou/w32
+  version: 3c9377fc6748f222729a8270fe2775d149a249ad
+- name: github.com/StackExchange/wmi
+  version: f3e2bae1e0cb5aef83e319133eabfee30013a4a5
+devImports: []

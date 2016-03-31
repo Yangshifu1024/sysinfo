@@ -1,0 +1,9 @@
+package: SystemInfo
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/gosuri/uitable
+- package: github.com/shirou/gopsutil
+  subpackages:
+  - cpu
+  - host
+  - mem
