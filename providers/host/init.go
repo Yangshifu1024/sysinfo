@@ -4,6 +4,8 @@ import (
     "time"
 
 	"github.com/shirou/gopsutil/host"
+
+    "iSystem/formats"
 )
 
 var (
@@ -40,5 +42,5 @@ func init() {
 	VirtualizationRole = hostInfo.VirtualizationRole
 	Users = len(users)
     BootTime = time.Unix(int64(hostInfo.BootTime), 0).Format("2006-01-02 15:04:05")
-	Uptime = (time.Duration(hostInfo.Uptime) * time.Second).String()
+	Uptime = formats.Success((time.Duration(hostInfo.Uptime) * time.Second).String())
 }

@@ -5,8 +5,9 @@ import (
 )
 
 var (
-    ModelName string
-    Cores int32
+	ModelName string
+	CPUs      int
+	Cores     int32
 )
 
 func init() {
@@ -14,7 +15,8 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-    cpuStat := cpuStats[0]
-    ModelName = cpuStat.ModelName
-    Cores = cpuStat.Cores
+	cpuStat := cpuStats[0]
+	ModelName = cpuStat.ModelName
+    CPUs = len(cpuStats)
+	Cores = cpuStat.Cores
 }

@@ -1,10 +1,10 @@
 package mem
 
 import (
-	"fmt"
-
+	"github.com/pivotal-golang/bytefmt"
 	"github.com/shirou/gopsutil/mem"
-    "github.com/pivotal-golang/bytefmt"
+
+    "iSystem/formats"
 )
 
 var (
@@ -31,10 +31,21 @@ func init() {
 	Total = bytefmt.ByteSize(memStats.Total)
 	Used = bytefmt.ByteSize(memStats.Used)
 	Free = bytefmt.ByteSize(memStats.Free)
-	Usage = fmt.Sprintf("%.2f%%", memStats.UsedPercent)
+    Usage = memFormat(memStats.UsedPercent)
 
 	SwapTotal = bytefmt.ByteSize(swapStats.Total)
 	SwapUsed = bytefmt.ByteSize(swapStats.Used)
 	SwapFree = bytefmt.ByteSize(swapStats.Free)
-	SwapUsage = fmt.Sprintf("%.2f%%", swapStats.UsedPercent)
+    SwapUsage = memFormat(swapStats.UsedPercent)
+}
+
+func memFormat(usage float64) string {
+	format := "%.2f%%"
+	if usage > 70 {
+		return formats.Dangerf(format, usage)
+	} else if usage > 50 {
+		return formats.Warningf(format, usage)
+	} else {
+		return formats.Successf(format, usage)
+	}
 }

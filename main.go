@@ -10,9 +10,10 @@ import (
 
 	"iSystem/providers/cpu"
 	"iSystem/providers/host"
-	"iSystem/providers/load"
+    "iSystem/providers/load"
 	"iSystem/providers/mem"
 	"iSystem/providers/net"
+	"iSystem/formats"
 )
 
 var VERSION string
@@ -39,7 +40,7 @@ func main() {
 	app.Action = func(c *cli.Context) {
 		infoTable := uitable.New()
 
-        fmt.Println("System information as of ", time.Now().String())
+        fmt.Println(formats.Title("System information as of ", time.Now().String()))
 
 		if !noCPU {
 			infoTable.AddRow("CPU Model:", cpu.ModelName, "Cores:", cpu.Cores)
@@ -50,7 +51,7 @@ func main() {
 		}
 		infoTable.AddRow("Hostname:", host.HostName, "Users:", host.Users)
 		infoTable.AddRow("Boot time:", host.BootTime, "Uptime:", host.Uptime)
-		infoTable.AddRow("System load:", fmt.Sprintf("%.2f %.2f %.2f", load.Load1, load.Load5, load.Load15), "Processes:", host.Procs)
+        infoTable.AddRow("Processes:", host.Procs, "System load:", load.Load)
 		infoTable.AddRow("Memory total:", mem.Total, "Free:", mem.Free)
 		infoTable.AddRow("Memory Used:", mem.Used, "Usage:", mem.Usage)
 		infoTable.AddRow("Swap total:", mem.SwapTotal, "Free:", mem.SwapFree)
