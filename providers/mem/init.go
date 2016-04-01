@@ -4,7 +4,7 @@ import (
 	"github.com/pivotal-golang/bytefmt"
 	"github.com/shirou/gopsutil/mem"
 
-    "iSystem/formats"
+	"iSystem/formats"
 )
 
 var (
@@ -31,12 +31,12 @@ func init() {
 	Total = bytefmt.ByteSize(memStats.Total)
 	Used = bytefmt.ByteSize(memStats.Used)
 	Free = bytefmt.ByteSize(memStats.Free)
-    Usage = memFormat(memStats.UsedPercent)
+	Usage = memFormat(memStats.UsedPercent)
 
 	SwapTotal = bytefmt.ByteSize(swapStats.Total)
 	SwapUsed = bytefmt.ByteSize(swapStats.Used)
 	SwapFree = bytefmt.ByteSize(swapStats.Free)
-    SwapUsage = memFormat(swapStats.UsedPercent)
+	SwapUsage = memFormat(swapStats.UsedPercent)
 }
 
 func memFormat(usage float64) string {

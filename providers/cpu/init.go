@@ -17,6 +17,6 @@ func init() {
 	}
 	cpuStat := cpuStats[0]
 	ModelName = cpuStat.ModelName
-    CPUs = len(cpuStats)
+	CPUs = len(cpuStats)
 	Cores = cpuStat.Cores
 }
