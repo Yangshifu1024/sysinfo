@@ -5,7 +5,7 @@ import (
 
 	"github.com/shirou/gopsutil/host"
 
-	"iSystem/formats"
+	"github.com/iFrankYang/iSystem/formats"
 )
 
 var (
