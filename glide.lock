@@ -1,5 +1,5 @@
-hash: a42abc41a3776bc70e2af2085af955d4f4966030a005f778d6e6a325cbfc2bf2
-updated: 2016-03-31T17:26:35.032465031+08:00
+hash: 4f06e59de4a7fce88f255d30218e4fc1815061d47029937daf397b2edff67edf
+updated: 2016-04-01T14:06:53.745834002+08:00
 imports:
 - name: github.com/codegangsta/cli
   version: bc465becccd1d527002fda095fc3c19d9c115029
@@ -16,15 +16,18 @@ imports:
   - util/wordwrap
 - name: github.com/mattn/go-runewidth
   version: d6bea18f789704b5f83375793155289da36a3c7f
+- name: github.com/pivotal-golang/bytefmt
+  version: 263ce04fc1d71bc7d50c241293488b3f54c779e5
 - name: github.com/shirou/gopsutil
   version: 37d89088411de59a4ef9fc340afa0e89dfcb4ea9
   subpackages:
   - cpu
   - host
   - mem
+  - load
+  - net
   - internal/common
   - process
-  - net
 - name: github.com/shirou/w32
   version: 3c9377fc6748f222729a8270fe2775d149a249ad
 - name: github.com/StackExchange/wmi

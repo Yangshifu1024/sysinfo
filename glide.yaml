@@ -8,3 +8,4 @@ import:
   - host
   - mem
 - package: github.com/fatih/color
+- package: github.com/pivotal-golang/bytefmt
