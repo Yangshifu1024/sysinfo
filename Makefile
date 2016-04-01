@@ -11,15 +11,15 @@ clean:
 bootstrap-dist:
 	go get -u github.com/mitchellh/gox
 
-build-all:
+build-all: clean
 	gox -verbose \
-	-ldflags "-X main.VERSION=${VERSION}" \
+	-ldflags "-w -s -X main.VERSION=${VERSION}" \
 	-osarch="darwin/amd64 linux/amd64 linux/386" \
 	-output="dist/{{.OS}}-{{.Arch}}/{{.Dir}}" .
 
 dist: build-all
 	cd dist && \
-	$(DIST_DIRS) tar -zcf isys-${VERSION}-{}.tar.gz {} \; && \
+	$(DIST_DIRS) tar -zcf iSystem-${VERSION}-{}.tar.gz {} \; && \
 	cd ..
 
 
