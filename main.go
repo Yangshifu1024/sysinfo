@@ -39,7 +39,8 @@ func main() {
 
 	app.Action = func(c *cli.Context) {
 		infoTable := uitable.New()
-
+		infoTable.MaxColWidth = 30
+		infoTable.Wrap = true
 		fmt.Println(formats.Title("System information as of ", time.Now().String()))
 
 		if !noCPU {
