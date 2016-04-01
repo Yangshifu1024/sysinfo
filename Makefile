@@ -1,4 +1,4 @@
-VERSION := $(shell git rev-parse --short HEAD)
+VERSION := $(shell git rev-parse --short HEAD)-$(shell date '+%Y%m%d')
 DIST_DIRS := find * -type d -exec
 
 build:
