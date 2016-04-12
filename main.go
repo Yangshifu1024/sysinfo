@@ -55,8 +55,10 @@ func main() {
 		infoTable.AddRow("Processes:", host.Procs, "System load:", load.Load)
 		infoTable.AddRow("Memory total:", mem.Total, "Free:", mem.Free)
 		infoTable.AddRow("Memory Used:", mem.Used, "Usage:", mem.Usage)
-		infoTable.AddRow("Swap total:", mem.SwapTotal, "Free:", mem.SwapFree)
-		infoTable.AddRow("Swap Used:", mem.SwapUsed, "Usage:", mem.SwapUsage)
+		if mem.SwapTotal != "0" {
+			infoTable.AddRow("Swap total:", mem.SwapTotal, "Free:", mem.SwapFree)
+			infoTable.AddRow("Swap Used:", mem.SwapUsed, "Usage:", mem.SwapUsage)
+		}
 		for i := 0; i <= net.NetInterfaceCount; i += 2 {
 			if i >= net.NetInterfaceCount {
 				break
