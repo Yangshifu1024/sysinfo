@@ -51,6 +51,13 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/mitchellh/go-ps",
+			"repository": "https://github.com/mitchellh/go-ps",
+			"revision": "e6c6068076470196af082b1ff896e24a51a87b2a",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/pivotal-golang/bytefmt",
 			"repository": "https://github.com/pivotal-golang/bytefmt",
 			"revision": "263ce04fc1d71bc7d50c241293488b3f54c779e5",
