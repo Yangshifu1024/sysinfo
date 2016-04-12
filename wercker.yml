@@ -5,6 +5,7 @@ build:
         - script:
             name: go build
             code: |
+                tree -d
                 go version
                 go build
     
