@@ -3,6 +3,7 @@ package host
 import (
 	"time"
 
+	ps "github.com/mitchellh/go-ps"
 	"github.com/shirou/gopsutil/host"
 
 	"github.com/iFrankYang/iSystem/formats"
@@ -10,7 +11,7 @@ import (
 
 var (
 	HostName             string
-	Procs                uint64
+	Procs                int
 	OS                   string
 	Platform             string
 	PlatformFamily       string
@@ -31,9 +32,12 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-
+	processes, err := ps.Processes()
+	if err != nil {
+		panic(err)
+	}
 	HostName = hostInfo.Hostname
-	Procs = hostInfo.Procs
+	Procs = len(processes)
 	OS = hostInfo.OS
 	Platform = hostInfo.Platform
 	PlatformFamily = hostInfo.PlatformFamily
