@@ -1,0 +1,10 @@
+box: golang:latest
+
+build:
+    steps:
+        - wercker/golint
+        - script:
+            name: go build
+            code: |
+                go build
+    
