@@ -10,14 +10,14 @@ type NetInterface struct {
 }
 
 var (
-	NetInterfaces []NetInterface
-    NetInterfaceCount int
+	NetInterfaces     []NetInterface
+	NetInterfaceCount int
 )
 
 func init() {
 	NetInterfaces = make([]NetInterface, 0)
 
-	stats, err := net.NetInterfaces()
+	stats, err := net.Interfaces()
 	if err != nil {
 		panic(err)
 	}
@@ -30,5 +30,5 @@ func init() {
 			NetInterfaces = append(NetInterfaces, inter)
 		}
 	}
-    NetInterfaceCount = len(NetInterfaces)
+	NetInterfaceCount = len(NetInterfaces)
 }

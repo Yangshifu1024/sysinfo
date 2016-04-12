@@ -23,7 +23,7 @@ var (
 )
 
 func init() {
-	hostInfo, err := host.HostInfo()
+	hostInfo, err := host.Info()
 	if err != nil {
 		panic(err)
 	}

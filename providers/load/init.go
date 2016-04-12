@@ -12,7 +12,7 @@ var (
 )
 
 func init() {
-	loadInfo, err := load.LoadAvg()
+	loadInfo, err := load.Avg()
 	if err != nil {
 		panic(err)
 	}
@@ -20,7 +20,7 @@ func init() {
 	Load = loadFormat(loadInfo)
 }
 
-func loadFormat(loadInfo *load.LoadAvgStat) string {
+func loadFormat(loadInfo *load.AvgStat) string {
 	loadAvg := loadInfo.Load1 / float64(cpu.CPUs*int(cpu.Cores))
 	format := "%.2f, %.2f, %.2f"
 	if loadAvg > 1.0 {

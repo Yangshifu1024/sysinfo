@@ -11,7 +11,7 @@ var (
 )
 
 func init() {
-	cpuStats, err := cpu.CPUInfo()
+	cpuStats, err := cpu.Info()
 	if err != nil {
 		panic(err)
 	}
