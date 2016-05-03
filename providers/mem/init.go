@@ -4,7 +4,7 @@ import (
 	"github.com/pivotal-golang/bytefmt"
 	"github.com/shirou/gopsutil/mem"
 
-	"github.com/iFrankYang/iSystem/formats"
+	"github.com/codebear4/sysinfo/formats"
 )
 
 var (

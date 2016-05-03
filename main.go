@@ -8,12 +8,12 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/gosuri/uitable"
 
-	"github.com/iFrankYang/iSystem/formats"
-	"github.com/iFrankYang/iSystem/providers/cpu"
-	"github.com/iFrankYang/iSystem/providers/host"
-	"github.com/iFrankYang/iSystem/providers/load"
-	"github.com/iFrankYang/iSystem/providers/mem"
-	"github.com/iFrankYang/iSystem/providers/net"
+	"github.com/codebear4/sysinfo/formats"
+	"github.com/codebear4/sysinfo/providers/cpu"
+	"github.com/codebear4/sysinfo/providers/host"
+	"github.com/codebear4/sysinfo/providers/load"
+	"github.com/codebear4/sysinfo/providers/mem"
+	"github.com/codebear4/sysinfo/providers/net"
 )
 
 var VERSION string

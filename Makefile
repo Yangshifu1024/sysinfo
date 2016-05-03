@@ -2,10 +2,10 @@ VERSION := $(shell git rev-parse --short HEAD)-$(shell date '+%Y%m%d')
 DIST_DIRS := find * -type d -exec
 
 build:
-	go build -o iSystem -ldflags "-X main.VERSION=${VERSION}" main.go
+	go build -o sysinfo -ldflags "-X main.VERSION=${VERSION}" main.go
 
 clean:
-	rm -f ./iSystem
+	rm -f ./sysinfo
 	rm -rf ./dist
 
 bootstrap-dist:
@@ -19,7 +19,7 @@ build-all: clean
 
 dist: build-all
 	cd dist && \
-	$(DIST_DIRS) tar -zcf iSystem-${VERSION}-{}.tar.gz {} \; && \
+	$(DIST_DIRS) tar -zcf sysinfo-${VERSION}-{}.tar.gz {} \; && \
 	cd ..
 
 

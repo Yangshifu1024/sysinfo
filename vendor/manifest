@@ -23,8 +23,8 @@
 			"notests": true
 		},
 		{
-			"importpath": "github.com/iFrankYang/iSystem",
-			"repository": "https://github.com/iFrankYang/iSystem",
+			"importpath": "github.com/codebear4/sysinfo",
+			"repository": "https://github.com/codebear4/sysinfo",
 			"revision": "dcb6324b209da8d00d21b73197fce0ae642fee2f",
 			"branch": "master",
 			"notests": true

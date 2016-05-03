@@ -1,7 +1,7 @@
 #iSystem
-[![Circle CI](https://circleci.com/gh/iFrankYang/iSystem.svg?style=svg)](https://circleci.com/gh/iFrankYang/iSystem)
-[![GitHub license](https://img.shields.io/github/license/iFrankYang/iSystem.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/iFrankYang/iSystem/total.svg)](https://github.com/iFrankYang/iSystem/releases)
+[![Circle CI](https://circleci.com/gh/codebear4/sysinfo.svg?style=svg)](https://circleci.com/gh/codebear4/sysinfo)
+[![GitHub license](https://img.shields.io/github/license/codebear4/sysinfo.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/codebear4/sysinfo/total.svg)](https://github.com/codebear4/sysinfo/releases)
 
 
 ![ScreenShot](/screenshots/iSystem.png)
