@@ -1,0 +1,108 @@
+{
+	"ImportPath": "github.com/iFrankYang/iSystem",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v62",
+	"Deps": [
+		{
+			"ImportPath": "github.com/StackExchange/wmi",
+			"Rev": "f3e2bae1e0cb5aef83e319133eabfee30013a4a5"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "v1.16.0-13-g839f07b",
+			"Rev": "839f07bfe4819fa1434fa907d0804ce6ec45a5df"
+		},
+		{
+			"ImportPath": "github.com/fatih/color",
+			"Comment": "v0.1-17-g533cd7f",
+			"Rev": "533cd7fd8a85905f67a1753afb4deddc85ea174f"
+		},
+		{
+			"ImportPath": "github.com/go-ole/go-ole",
+			"Comment": "v1.2.0-10-g572eabb",
+			"Rev": "572eabb84c424e76a0d39d31510dd7dfd62f70b2"
+		},
+		{
+			"ImportPath": "github.com/go-ole/go-ole/oleutil",
+			"Comment": "v1.2.0-10-g572eabb",
+			"Rev": "572eabb84c424e76a0d39d31510dd7dfd62f70b2"
+		},
+		{
+			"ImportPath": "github.com/gosuri/uitable",
+			"Rev": "36ee7e946282a3fb1cfecd476ddc9b35d8847e42"
+		},
+		{
+			"ImportPath": "github.com/gosuri/uitable/util/strutil",
+			"Rev": "36ee7e946282a3fb1cfecd476ddc9b35d8847e42"
+		},
+		{
+			"ImportPath": "github.com/gosuri/uitable/util/wordwrap",
+			"Rev": "36ee7e946282a3fb1cfecd476ddc9b35d8847e42"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Comment": "v0.0.4",
+			"Rev": "45ce6a6f60010487dd0dbab368b5fbbed1c14ef0"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Rev": "56b76bdf51f7708750eac80fa38b952bb9f32639"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-runewidth",
+			"Comment": "v0.0.1",
+			"Rev": "d6bea18f789704b5f83375793155289da36a3c7f"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/go-ps",
+			"Rev": "e6c6068076470196af082b1ff896e24a51a87b2a"
+		},
+		{
+			"ImportPath": "github.com/pivotal-golang/bytefmt",
+			"Rev": "263ce04fc1d71bc7d50c241293488b3f54c779e5"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/cpu",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/host",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/internal/common",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/load",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/mem",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/net",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/gopsutil/process",
+			"Comment": "v2.0.0-24-gcf45499",
+			"Rev": "cf454998dc51c6528a28b2f429fead8f5e5f6462"
+		},
+		{
+			"ImportPath": "github.com/shirou/w32",
+			"Rev": "3c9377fc6748f222729a8270fe2775d149a249ad"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "b776ec39b3e54652e09028aaaaac9757f4f8211a"
+		}
+	]
+}
