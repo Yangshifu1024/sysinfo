@@ -37,7 +37,7 @@ func main() {
 		cli.BoolFlag{Name: "no-cpu", Usage: "Hide CPU information.", Destination: &noCPU},
 	}
 
-	app.Action = func(c *cli.Context) {
+	app.Action = func(c *cli.Context) error {
 		infoTable := uitable.New()
 		infoTable.MaxColWidth = 30
 		infoTable.Wrap = true
@@ -72,6 +72,7 @@ func main() {
 			}
 		}
 		fmt.Println(infoTable)
+		return nil
 	}
 
 	app.Run(os.Args)

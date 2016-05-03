@@ -2,15 +2,25 @@
 	"version": 0,
 	"dependencies": [
 		{
+			"importpath": "github.com/codebear4/sysinfo",
+			"repository": "https://github.com/codebear4/sysinfo",
+			"vcs": "git",
+			"revision": "a083533bc0f9d558748215a8b219aca68eff96fd",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/codegangsta/cli",
 			"repository": "https://github.com/codegangsta/cli",
-			"revision": "71f57d300dd6a780ac1856c005c4b518cfd498ec",
+			"vcs": "git",
+			"revision": "839f07bfe4819fa1434fa907d0804ce6ec45a5df",
 			"branch": "master",
 			"notests": true
 		},
 		{
 			"importpath": "github.com/fatih/color",
 			"repository": "https://github.com/fatih/color",
+			"vcs": "git",
 			"revision": "533cd7fd8a85905f67a1753afb4deddc85ea174f",
 			"branch": "master",
 			"notests": true
@@ -18,27 +28,23 @@
 		{
 			"importpath": "github.com/gosuri/uitable",
 			"repository": "https://github.com/gosuri/uitable",
+			"vcs": "git",
 			"revision": "36ee7e946282a3fb1cfecd476ddc9b35d8847e42",
-			"branch": "master",
-			"notests": true
-		},
-		{
-			"importpath": "github.com/codebear4/sysinfo",
-			"repository": "https://github.com/codebear4/sysinfo",
-			"revision": "dcb6324b209da8d00d21b73197fce0ae642fee2f",
 			"branch": "master",
 			"notests": true
 		},
 		{
 			"importpath": "github.com/mattn/go-colorable",
 			"repository": "https://github.com/mattn/go-colorable",
-			"revision": "9cbef7c35391cca05f15f8181dc0b18bc9736dbb",
+			"vcs": "git",
+			"revision": "45ce6a6f60010487dd0dbab368b5fbbed1c14ef0",
 			"branch": "master",
 			"notests": true
 		},
 		{
 			"importpath": "github.com/mattn/go-isatty",
 			"repository": "https://github.com/mattn/go-isatty",
+			"vcs": "git",
 			"revision": "56b76bdf51f7708750eac80fa38b952bb9f32639",
 			"branch": "master",
 			"notests": true
@@ -46,6 +52,7 @@
 		{
 			"importpath": "github.com/mattn/go-runewidth",
 			"repository": "https://github.com/mattn/go-runewidth",
+			"vcs": "git",
 			"revision": "d6bea18f789704b5f83375793155289da36a3c7f",
 			"branch": "master",
 			"notests": true
@@ -53,6 +60,7 @@
 		{
 			"importpath": "github.com/mitchellh/go-ps",
 			"repository": "https://github.com/mitchellh/go-ps",
+			"vcs": "git",
 			"revision": "e6c6068076470196af082b1ff896e24a51a87b2a",
 			"branch": "master",
 			"notests": true
@@ -60,6 +68,7 @@
 		{
 			"importpath": "github.com/pivotal-golang/bytefmt",
 			"repository": "https://github.com/pivotal-golang/bytefmt",
+			"vcs": "git",
 			"revision": "263ce04fc1d71bc7d50c241293488b3f54c779e5",
 			"branch": "master",
 			"notests": true
@@ -67,7 +76,8 @@
 		{
 			"importpath": "github.com/shirou/gopsutil/cpu",
 			"repository": "https://github.com/shirou/gopsutil",
-			"revision": "e8f7a95747d711f34ddfe9dd9b825a84bd059dec",
+			"vcs": "git",
+			"revision": "cf454998dc51c6528a28b2f429fead8f5e5f6462",
 			"branch": "master",
 			"path": "/cpu",
 			"notests": true
@@ -75,7 +85,8 @@
 		{
 			"importpath": "github.com/shirou/gopsutil/host",
 			"repository": "https://github.com/shirou/gopsutil",
-			"revision": "e8f7a95747d711f34ddfe9dd9b825a84bd059dec",
+			"vcs": "git",
+			"revision": "cf454998dc51c6528a28b2f429fead8f5e5f6462",
 			"branch": "master",
 			"path": "/host",
 			"notests": true
@@ -83,7 +94,8 @@
 		{
 			"importpath": "github.com/shirou/gopsutil/internal/common",
 			"repository": "https://github.com/shirou/gopsutil",
-			"revision": "e8f7a95747d711f34ddfe9dd9b825a84bd059dec",
+			"vcs": "git",
+			"revision": "cf454998dc51c6528a28b2f429fead8f5e5f6462",
 			"branch": "master",
 			"path": "/internal/common",
 			"notests": true
@@ -91,7 +103,8 @@
 		{
 			"importpath": "github.com/shirou/gopsutil/load",
 			"repository": "https://github.com/shirou/gopsutil",
-			"revision": "e8f7a95747d711f34ddfe9dd9b825a84bd059dec",
+			"vcs": "git",
+			"revision": "cf454998dc51c6528a28b2f429fead8f5e5f6462",
 			"branch": "master",
 			"path": "/load",
 			"notests": true
@@ -99,7 +112,8 @@
 		{
 			"importpath": "github.com/shirou/gopsutil/mem",
 			"repository": "https://github.com/shirou/gopsutil",
-			"revision": "e8f7a95747d711f34ddfe9dd9b825a84bd059dec",
+			"vcs": "git",
+			"revision": "cf454998dc51c6528a28b2f429fead8f5e5f6462",
 			"branch": "master",
 			"path": "/mem",
 			"notests": true
@@ -107,7 +121,8 @@
 		{
 			"importpath": "github.com/shirou/gopsutil/net",
 			"repository": "https://github.com/shirou/gopsutil",
-			"revision": "e8f7a95747d711f34ddfe9dd9b825a84bd059dec",
+			"vcs": "git",
+			"revision": "cf454998dc51c6528a28b2f429fead8f5e5f6462",
 			"branch": "master",
 			"path": "/net",
 			"notests": true
