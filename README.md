@@ -1,3 +1,3 @@
-#iSystem [![Circle CI](https://circleci.com/gh/codebear4/sysinfo.svg?style=svg)](https://circleci.com/gh/codebear4/sysinfo)
+#iSystem [![Build Status](https://semaphoreci.com/api/v1/frankyang/sysinfo/branches/master/badge.svg)](https://semaphoreci.com/frankyang/sysinfo)
 
 ![ScreenShot](/screenshots/iSystem.png)
