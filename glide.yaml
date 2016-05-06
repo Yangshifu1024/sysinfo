@@ -1,0 +1,14 @@
+package: github.com/codebear4/sysinfo
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/fatih/color
+- package: github.com/gosuri/uitable
+- package: github.com/mitchellh/go-ps
+- package: github.com/pivotal-golang/bytefmt
+- package: github.com/shirou/gopsutil
+  subpackages:
+  - cpu
+  - host
+  - load
+  - mem
+  - net
