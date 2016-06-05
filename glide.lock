@@ -1,8 +1,8 @@
 hash: 7d4ecd5446170b627712c640c120ef50f6670160193ecdffd572aca7edf553ce
-updated: 2016-05-06T11:46:02.580085362+08:00
+updated: 2016-06-05T18:28:50.003159611+08:00
 imports:
 - name: github.com/codegangsta/cli
-  version: 75b97d09d9f5792ff997e249a330a3ca28f8b537
+  version: edb24d02aa3cea2319c33f2836d4a5133907fe4c
 - name: github.com/fatih/color
   version: 533cd7fd8a85905f67a1753afb4deddc85ea174f
 - name: github.com/go-ole/go-ole
@@ -27,7 +27,7 @@ imports:
 - name: github.com/pivotal-golang/bytefmt
   version: 263ce04fc1d71bc7d50c241293488b3f54c779e5
 - name: github.com/shirou/gopsutil
-  version: 7b991b8135166c7fc81b65665a2f35c7a1966cfc
+  version: 586bb697f3ec9f8ec08ffefe18f521a64534037c
   subpackages:
   - cpu
   - host
@@ -41,7 +41,7 @@ imports:
 - name: github.com/StackExchange/wmi
   version: f3e2bae1e0cb5aef83e319133eabfee30013a4a5
 - name: golang.org/x/sys
-  version: b776ec39b3e54652e09028aaaaac9757f4f8211a
+  version: 076b546753157f758b316e59bcb51e6807c04057
   subpackages:
   - unix
 devImports: []
