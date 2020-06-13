@@ -8,12 +8,12 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/gosuri/uitable"
 
-	"github.com/codebear4/sysinfo/formats"
-	"github.com/codebear4/sysinfo/providers/cpu"
-	"github.com/codebear4/sysinfo/providers/host"
-	"github.com/codebear4/sysinfo/providers/load"
-	"github.com/codebear4/sysinfo/providers/mem"
-	"github.com/codebear4/sysinfo/providers/net"
+	"github.com/MrHeeeeavy/sysinfo/formats"
+	"github.com/MrHeeeeavy/sysinfo/providers/cpu"
+	"github.com/MrHeeeeavy/sysinfo/providers/host"
+	"github.com/MrHeeeeavy/sysinfo/providers/load"
+	"github.com/MrHeeeeavy/sysinfo/providers/mem"
+	"github.com/MrHeeeeavy/sysinfo/providers/net"
 )
 
 var VERSION string
@@ -25,7 +25,7 @@ func main() {
 	app.Authors = []cli.Author{
 		{
 			Name:  "Frank Yang",
-			Email: "codebear4@gmail.com",
+			Email: "MrHeeeeavy@gmail.com",
 		},
 	}
 	app.Copyright = "Codebear (c) 2016"

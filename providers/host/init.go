@@ -6,7 +6,7 @@ import (
 	ps "github.com/mitchellh/go-ps"
 	"github.com/shirou/gopsutil/host"
 
-	"github.com/codebear4/sysinfo/formats"
+	"github.com/MrHeeeeavy/sysinfo/formats"
 )
 
 var (

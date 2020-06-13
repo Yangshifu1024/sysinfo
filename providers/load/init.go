@@ -3,8 +3,8 @@ package load
 import (
 	"github.com/shirou/gopsutil/load"
 
-	"github.com/codebear4/sysinfo/formats"
-	"github.com/codebear4/sysinfo/providers/cpu"
+	"github.com/MrHeeeeavy/sysinfo/formats"
+	"github.com/MrHeeeeavy/sysinfo/providers/cpu"
 )
 
 var (
